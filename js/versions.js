@@ -236,7 +236,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                             <a href="#pricing">${chinese.links.pricing}</a>
                         </li>
                         <li>
-                            <a href="https://carddiary.me/cn/help">${chinese.links.blog}</a>
+                            <a href="https://help.carddiaryapp.com/cn/">${chinese.links.blog}</a>
                         </li>
                         <li id="lng">
                             <p id="lng-switch" class="cn"><span>中</span>/<span>EN</span></p>
@@ -263,7 +263,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                         <a href="#pricing">${chinese.links.pricing}</a>
                     </li>
                     <li>
-                        <a href="https://carddiary.me/cn/help">${chinese.links.blog}</a>
+                        <a href="https://help.carddiaryapp.com/cn/">${chinese.links.blog}</a>
                     </li>
                     <li id="lng">
                         <p id="lng-switch" class="cn"><span>中</span>/<span>EN</span></p>
@@ -1009,8 +1009,8 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                     <p>${chinese.footer.description}</p>
                 </div>
                 <div id="links" style="color: #ddd;">
-                    <a href="https://carddiary.me/TermsOfUses.html">${chinese.footer.links.terms}</a>
-                    |&nbsp;&nbsp;&nbsp; <a href="https://carddiary.me/Privacy%20Policy.html">${chinese.footer.links.privacy}</a>
+                    <a href="https://carddiaryapp.com/terms">${chinese.footer.links.terms}</a>
+                    |&nbsp;&nbsp;&nbsp; <a href="https://carddiaryapp.com/privacy-policy">${chinese.footer.links.privacy}</a>
                     |&nbsp;&nbsp;&nbsp; <a target="_blank" href="http://www.beian.miit.gov.cn">${chinese.footer.links.copyright}</a>
                 </div>
             </div>
@@ -1042,7 +1042,7 @@ const englishVersion = `
                             <a href="#pricing">Pricing</a>
                         </li>
                         <li>
-                            <a href="https://carddiary.me/help">Help</a>
+                            <a href="https://help.carddiaryapp.com/en/">Help</a>
                         </li>
                         <li id="lng">
                                 <p id="lng-switch" class="en"><span>中</span>/<span>EN</span></p>
@@ -1068,7 +1068,7 @@ const englishVersion = `
                         <a href="#pricing">Pricing</a>
                     </li>
                     <li>
-                        <a href="https://carddiary.me/help">Help</a>
+                        <a href="https://help.carddiaryapp.com/en/">Help</a>
                     </li>
                     <li id="lng">
                         <p id="lng-switch" class="en"><span>中</span>/<span>EN</span></p>
@@ -1813,8 +1813,8 @@ const englishVersion = `
                     <p>Write your day on a card.</p>
                 </div>
                 <div id="links" style="color: #ddd;">
-                    <a href="https://carddiary.me/TermsOfUses.html">Terms</a>
-                    |&nbsp;&nbsp;&nbsp; <a href="https://carddiary.me/Privacy%20Policy.html">Privacy</a>
+                    <a href="https://carddiaryapp.com/terms">Terms</a>
+                    |&nbsp;&nbsp;&nbsp; <a href="https://carddiaryapp.com/privacy-policy">Privacy</a>
                     <p>|&nbsp;&nbsp;&nbsp; © Rhythmical Studio</p>
                 </div>
             </div>
