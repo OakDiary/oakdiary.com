@@ -23,7 +23,7 @@ const reviews = {
     ],
     chinese: [
         {
-            text: "\“简单的几个步骤，记录下一天的喜怒哀乐。让记忆随着时光的沉淀酿成美酒，闲暇之时打开《卡片日记》一一品尝吧。\”",
+            text: "\“简单的几个步骤，记录下一天的喜怒哀乐。让记忆随着时光的沉淀酿成美酒，闲暇之时打开《白橡日记》一一品尝吧。\”",
             logo: "A",
             name: "App Store",
             logoBg: "#219653"
@@ -78,7 +78,7 @@ const chinese = {
     },
     landing: {
         title: '在你的卡片中写下每一天',
-        description: '卡片日记为你提供了一个写下思考，感受，发现，探索，记忆和美梦的完美栖息地。',
+        description: '白橡日记为你提供了一个写下思考，感受，发现，探索，记忆和美梦的完美栖息地。',
         average: '4.9',
         numReviews: '47,000 多个App Store评论'
     },
@@ -93,13 +93,13 @@ const chinese = {
     intro3: {
         title: '让你的每一天都充满意义',
         description : {
-            companyName: '卡片日记',
+            companyName: '白橡日记',
             text: '记录每一天的喜怒哀乐，让记忆随着时光的沉淀酿成美酒。'
         }
     },
     features: {
         title: '主要功能',
-        description: '凭借着卡片日记简洁，恰到好处的各种功能，让你在书写日记的过程中，轻松快乐，条理清晰，保护你的隐私的同时又允许你随时随地访问你的日记。',
+        description: '凭借着白橡日记简洁，恰到好处的各种功能，让你在书写日记的过程中，轻松快乐，条理清晰，保护你的隐私的同时又允许你随时随地访问你的日记。',
         list: [
             {
                 title: '留下你的回忆',
@@ -133,7 +133,7 @@ const chinese = {
     },
     pricing: {
         title: '价格',
-        description: '卡片日记的大多数功能均可免费使用，升级到高级版享受更多高级功能并让你的日记体验更加出色',
+        description: '白橡日记的大多数功能均可免费使用，升级到高级版享受更多高级功能并让你的日记体验更加出色',
         buttons: {
             month: '每月',
             year: '每年',
@@ -177,11 +177,11 @@ const chinese = {
     },
     getStarted: {
         title: '免费下载使用',
-        description: '卡片日记适用于 Android，iPhone 和 iPad.'
+        description: '白橡日记适用于 Android，iPhone 和 iPad （iOS上名为“卡片日记”）.'
     },
     reviews: [
         {
-            text: '\“简单的几个步骤，记录下一天的喜怒哀乐。让记忆随着时光的沉淀酿成美酒，闲暇之时打开《卡片日记》一一品尝吧。\”',
+            text: '\“简单的几个步骤，记录下一天的喜怒哀乐。让记忆随着时光的沉淀酿成美酒，闲暇之时打开《白橡日记》一一品尝吧。\”',
             logo: 'A',
             name: 'App Store'
         },
@@ -1742,7 +1742,7 @@ const englishVersion = `
         <div class="container">
             <div id="start-content">
                 <h2>Get Started For Free!</h2>
-                <p id="start-lead">Card Diary is available for Android, iPhone and iPad.</p>
+                <p id="start-lead">Card Diary is available for Android, iPhone and iPad (named "Card Diary" on iOS).</p>
                 <div class="apple-google" class="fade">
                         <!-- Link to app store here -->
                         <a href="https://apps.apple.com/us/app/card-diary-memories-journal/id1295506659" target="_blank">
