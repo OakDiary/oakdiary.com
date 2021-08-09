@@ -218,7 +218,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                 <div id="nav-content">
                     <div id="logo-mobile">
                         <a href="#landing">
-                            <img src="./img/logo.png" alt="Card Diary Logo">
+                            <img src="./img/logo.png" alt="Oak Diary Logo">
                         </a>
                     </div>
                     <div id="hamburger">
@@ -236,7 +236,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                             <a href="#pricing">${chinese.links.pricing}</a>
                         </li>
                         <li>
-                            <a href="https://help.carddiaryapp.com/cn/">${chinese.links.blog}</a>
+                            <a href="https://help.oakdiary.com/cn/">${chinese.links.blog}</a>
                         </li>
                         <li id="lng">
                             <p id="lng-switch" class="cn"><span>中</span>/<span>EN</span></p>
@@ -252,7 +252,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
             <div id="nav-content">
                 <div id="logo">
                     <a href="#landing">
-                            <img src="./img/logo.png" alt="Card Diary Logo">
+                            <img src="./img/logo.png" alt="Oak Diary Logo">
                     </a>
                 </div>
                 <ul id="links">
@@ -263,7 +263,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                         <a href="#pricing">${chinese.links.pricing}</a>
                     </li>
                     <li>
-                        <a href="https://help.carddiaryapp.com/cn/">${chinese.links.blog}</a>
+                        <a href="https://help.oakdiary.com/cn/">${chinese.links.blog}</a>
                     </li>
                     <li id="lng">
                         <p id="lng-switch" class="cn"><span>中</span>/<span>EN</span></p>
@@ -1009,8 +1009,8 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                     <p>${chinese.footer.description}</p>
                 </div>
                 <div id="links" style="color: #ddd;">
-                    <a href="https://carddiaryapp.com/terms">${chinese.footer.links.terms}</a>
-                    |&nbsp;&nbsp;&nbsp; <a href="https://carddiaryapp.com/privacy-policy">${chinese.footer.links.privacy}</a>
+                    <a href="https://oakdiary.com/terms">${chinese.footer.links.terms}</a>
+                    |&nbsp;&nbsp;&nbsp; <a href="https://oakdiary.com/privacy-policy">${chinese.footer.links.privacy}</a>
                     |&nbsp;&nbsp;&nbsp; <a target="_blank" href="http://www.beian.miit.gov.cn">${chinese.footer.links.copyright}</a>
                 </div>
             </div>
@@ -1024,7 +1024,7 @@ const englishVersion = `
                 <div id="nav-content">
                     <div id="logo-mobile">
                         <a href="#landing">
-                            <img src="./img/logo.png" alt="Card Diary Logo">
+                            <img src="./img/logo.png" alt="Oak Diary Logo">
                         </a>
                     </div>
                     <div id="hamburger">
@@ -1042,7 +1042,7 @@ const englishVersion = `
                             <a href="#pricing">Pricing</a>
                         </li>
                         <li>
-                            <a href="https://help.carddiaryapp.com/en/">Help</a>
+                            <a href="https://help.oakdiary.com/en/">Help</a>
                         </li>
                         <li id="lng">
                                 <p id="lng-switch" class="en"><span>中</span>/<span>EN</span></p>
@@ -1057,7 +1057,7 @@ const englishVersion = `
             <div id="nav-content">
                 <div id="logo">
                     <a href="#landing">
-                            <img src="./img/logo.png" alt="Card Diary Logo">
+                            <img src="./img/logo.png" alt="Oak Diary Logo">
                         </a>
                 </div>
                 <ul id="links">
@@ -1068,7 +1068,7 @@ const englishVersion = `
                         <a href="#pricing">Pricing</a>
                     </li>
                     <li>
-                        <a href="https://help.carddiaryapp.com/en/">Help</a>
+                        <a href="https://help.oakdiary.com/en/">Help</a>
                     </li>
                     <li id="lng">
                         <p id="lng-switch" class="en"><span>中</span>/<span>EN</span></p>
@@ -1161,7 +1161,7 @@ const englishVersion = `
                 <div class="card">
                     <h2>Make your day meaningful</h2>
                     <p class="intro-lead">
-                        <span>Card Diary</span>
+                        <span>Oak Diary</span>
                         is a perfect place for you to think, feel, discover, remember, and dream. </p>
                 </div>
             </div>
@@ -1171,7 +1171,7 @@ const englishVersion = `
         <div class="container">
             <div id="features-content">
                 <h2>Essential Features</h2>
-                <p id="features-lead">With various intuitive functions, Card Diary customizes your writing process, organizes your entries, secures your privacy, and allows you to access your data anytime, anywhere.</p>
+                <p id="features-lead">With various intuitive functions, Oak Diary customizes your writing process, organizes your entries, secures your privacy, and allows you to access your data anytime, anywhere.</p>
                 <div id="features-cards">
                     <div class="card-wrapper">
                         <div class="card">
@@ -1213,7 +1213,7 @@ const englishVersion = `
         <div class="container">
             <div id="pricing-content">
                 <h2>Pricing</h2>
-                <p id="pricing-lead">Most features in Card Diary are free to use. Upgrade to the Pro plan to enjoy more advanced features and unlock extra happiness!</p>
+                <p id="pricing-lead">Most features in Oak Diary are free to use. Upgrade to the Pro plan to enjoy more advanced features and unlock extra happiness!</p>
                 <div id="time-span">
                     <button class="time active" id="1-month">1 Month</button>
                     <button class="time" id="1-year">1 Year</button>
@@ -1742,7 +1742,7 @@ const englishVersion = `
         <div class="container">
             <div id="start-content">
                 <h2>Get Started For Free!</h2>
-                <p id="start-lead">Card Diary is available for Android, iPhone and iPad (named "Card Diary" on iOS).</p>
+                <p id="start-lead">Card Diary is available for Android. For iPhone and iPad please try Card Diary.</p>
                 <div class="apple-google" class="fade">
                         <!-- Link to app store here -->
                         <a href="https://apps.apple.com/us/app/card-diary-memories-journal/id1295506659" target="_blank">
@@ -1813,8 +1813,8 @@ const englishVersion = `
                     <p>Write your day on a card.</p>
                 </div>
                 <div id="links" style="color: #ddd;">
-                    <a href="https://carddiaryapp.com/terms">Terms</a>
-                    |&nbsp;&nbsp;&nbsp; <a href="https://carddiaryapp.com/privacy-policy">Privacy</a>
+                    <a href="https://oakdiary.com/terms">Terms</a>
+                    |&nbsp;&nbsp;&nbsp; <a href="https://oakdiary.com/privacy-policy">Privacy</a>
                     <p>|&nbsp;&nbsp;&nbsp; © Rhythmical Studio</p>
                 </div>
             </div>
