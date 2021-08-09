@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', switchToChinese);
+document.addEventListener('DOMContentLoaded', changeLanguege);
 
 function changeLanguege() {
 
@@ -6,14 +6,7 @@ function changeLanguege() {
     const isChinese = document.querySelector('#lng-switch').classList.contains('cn');
 
     // Detect Location
-    const userLang = navigator.language || navigator.userLanguage; 
-
-    if(userLang == "zh-CN" && !isChinese) {
-        switchToChinese();
-    }
-
-
-    // Language params
+    const userLang = navigator.language || navigator.userLanguage;
 
     function getParameterByName(name, url) {
         if (!url) url = window.location.href;
@@ -25,11 +18,11 @@ function changeLanguege() {
         return decodeURIComponent(results[2].replace(/\+/g, ' '));
     }
 
-    const lng = getParameterByName('lng');
+    const lngParameter = getParameterByName('lng');
 
-    if(lng === 'cn' && !isChinese) {
-        switchToChinese()
-    } else if(lng === 'en' && isChinese) {
+    if((lngParameter === 'cn' || userLang == 'zh-CN') && !isChinese) {
+        switchToChinese();
+    } else if((lngParameter === 'en' || userLang != 'zh-CN') && isChinese) {
         switchToEnglish()
     } else {
         init();
