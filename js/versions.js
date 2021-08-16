@@ -284,7 +284,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                             <img src="./img/app-store.png" alt="Card Diary on the app store">
                         </a>
                         <!-- Link to google play here -->
-                        <a href="https://cache-img.oss-cn-hangzhou.aliyuncs.com/carddiary.apk" target="_blank">
+                        <a href="/oakdiary.apk" target="_blank">
                             <img src="./img/apk-download.png" alt="Download APK">
                         </a>
                     </div>
@@ -945,7 +945,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                             <img src="./img/app-store.png" alt="Card Diary on the app store">
                         </a>
                         <!-- Link to google play here -->
-                        <a href="https://cache-img.oss-cn-hangzhou.aliyuncs.com/carddiary.apk" target="_blank">
+                        <a href="/oakdiary.apk" target="_blank">
                             <img src="./img/apk-download.png" alt="Download APK">
                         </a>
                 </div>
