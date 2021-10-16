@@ -1,8 +1,6 @@
 [
     {
         "id": "writeAnywhere",
-        "enabled": true,
-        "minAndroidVersionCode": 108,
-        "minAndroidVersionName": "5.0"
+        "enabled": true
     }
 ]
