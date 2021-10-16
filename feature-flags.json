@@ -1,0 +1,6 @@
+{
+    "writeAnywhere": {
+        "on": true,
+        "minAndroidAppVersion": "5.0"
+    }
+}
