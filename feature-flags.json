@@ -2,6 +2,6 @@
     {
         "id": "writeAnywhere",
         "enabled": false,
-        "reason": "maintenance"
+        "disabledReason": "maintenance"
     }
 ]
