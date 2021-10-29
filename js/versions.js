@@ -280,7 +280,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                     <p id="header-lead" data-aos="fade-down">${chinese.landing.description}</p>
                     <div class="apple-google fade">
                         <!-- Link to google play here -->
-                        <a href="/oakdiary.apk" target="_blank">
+                        <a href="/get" target="_blank">
                             <img src="./img/apk-download.png" alt="Download APK">
                         </a>
                         <!-- Link to app store here -->
@@ -940,13 +940,13 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                 <h2>${chinese.getStarted.title}</h2>
                 <p id="start-lead">${chinese.getStarted.description}</p>
                 <div class="apple-google" class="fade">
+                        <!-- Link to google play here -->
+                        <a href="/get" target="_blank">
+                            <img src="./img/apk-download.png" alt="Download APK">
+                        </a>
                         <!-- Link to app store here -->
                         <a href="https://apps.apple.com/app/id1295506659" target="_blank">
                             <img src="./img/app-store.png" alt="Card Diary on the app store">
-                        </a>
-                        <!-- Link to google play here -->
-                        <a href="/oakdiary.apk" target="_blank">
-                            <img src="./img/apk-download.png" alt="Download APK">
                         </a>
                 </div>
             </div>
