@@ -283,10 +283,6 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                         <a href="/get" target="_blank">
                             <img src="./img/apk-download.png" alt="Download APK">
                         </a>
-                        <!-- Link to app store here -->
-                        <a href="https://apps.apple.com/app/id1295506659" target="_blank">
-                            <img src="./img/app-store.png" alt="Card Diary on the app store">
-                        </a>
                     </div>
                     <div id="rating" class="fade">
                         <img src="./img/stars.png" alt="5 star rating">
@@ -944,10 +940,6 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                         <a href="/get" target="_blank">
                             <img src="./img/apk-download.png" alt="Download APK">
                         </a>
-                        <!-- Link to app store here -->
-                        <a href="https://apps.apple.com/app/id1295506659" target="_blank">
-                            <img src="./img/app-store.png" alt="Card Diary on the app store">
-                        </a>
                 </div>
             </div>
         </div>
@@ -1084,10 +1076,6 @@ const englishVersion = `
                     <h1 id="main-header" data-aos="fade-right">Write your day on a card</h1>
                     <p id="header-lead" data-aos="fade-down">Write your memory on your card. Love, happy, joy, sometimes... sad or painful. You can fill in all your feelings.</p>
                     <div class="apple-google fade">
-                        <!-- Link to app store here -->
-                        <a href="https://apps.apple.com/us/app/card-diary-memories-journal/id1295506659" target="_blank">
-                            <img src="./img/app-store-en.png" alt="Card Diary on the app store">
-                        </a>
                         <!-- Link to google play here -->
                         <a href="https://play.google.com/store/apps/details?id=com.card.carddiary" target="_blank">
                             <img src="./img/google-play.png" alt="Download APK">
@@ -1747,10 +1735,6 @@ const englishVersion = `
                         <!-- Link to google play here -->
                         <a href="https://play.google.com/store/apps/details?id=com.card.carddiary" target="_blank">
                             <img src="./img/google-play.png" alt="Download APK">
-                        </a>
-                        <!-- Link to app store here -->
-                        <a href="https://apps.apple.com/us/app/card-diary-memories-journal/id1295506659" target="_blank">
-                            <img src="./img/app-store-en.png" alt="Card Diary on the app store">
                         </a>
                 </div>
             </div>
