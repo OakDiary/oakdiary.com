@@ -233,6 +233,7 @@ function menu() {
 
 function switchToEnglish() {
     document.querySelector('body').innerHTML = englishVersion;
+    document.title = 'Oak Diary';
     AOS.refreshHard();
     try {
         scroll.destroy();
@@ -242,6 +243,7 @@ function switchToEnglish() {
 
 function switchToChinese() {
     document.querySelector('body').innerHTML = chineseVersion;
+    document.title = '白橡日记';
     AOS.refreshHard();
     try {
         scroll.destroy();

@@ -1003,7 +1003,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                 <div id="links" style="color: #ddd;">
                     <a href="https://oakdiary.com/terms">${chinese.footer.links.terms}</a>
                     |&nbsp;&nbsp;&nbsp; <a href="https://oakdiary.com/privacy/cn/">${chinese.footer.links.privacy}</a>
-                    |&nbsp;&nbsp;&nbsp; <a target="_blank" href="http://www.beian.miit.gov.cn">${chinese.footer.links.copyright}</a>
+                    |&nbsp;&nbsp;&nbsp; <a target="_blank" href="https://beian.miit.gov.cn/">${chinese.footer.links.copyright}</a>
                 </div>
             </div>
         </div>
