@@ -218,7 +218,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
                 <div id="nav-content">
                     <div id="logo-mobile">
                         <a href="#landing">
-                            <img src="./img/logo.png" alt="Oak Diary Logo">
+                            <img src="./img/logo-cn.png" alt="Oak Diary Logo">
                         </a>
                     </div>
                     <div id="hamburger">
@@ -252,7 +252,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
             <div id="nav-content">
                 <div id="logo">
                     <a href="#landing">
-                            <img src="./img/logo.png" alt="Oak Diary Logo">
+                            <img src="./img/logo-cn.png" alt="Oak Diary Logo">
                     </a>
                 </div>
                 <ul id="links">
@@ -997,7 +997,7 @@ const chineseVersion = `<nav id="nav-mobile" data-nav-mobile>
         <div class="container">
             <div id="footer-content">
                 <div style="width: 200px;">
-                    <img src="./img/logo-2.png" alt="${chinese.imgAlts.logo}">
+                    <img src="./img/logo-bottom-cn.png" alt="${chinese.imgAlts.logo}">
                     <p>${chinese.footer.description}</p>
                 </div>
                 <div id="links" style="color: #ddd;">
@@ -1793,7 +1793,7 @@ const englishVersion = `
         <div class="container">
             <div id="footer-content">
                 <div style="width: 200px;">
-                    <img src="./img/logo-2.png" alt="Logo"/>
+                    <img src="./img/logo-bottom.png" alt="Logo"/>
                     <p>Write your day on a card.</p>
                 </div>
                 <div id="links" style="color: #ddd;">
