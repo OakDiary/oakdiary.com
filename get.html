@@ -1,6 +1,22 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>下载白橡日记</title>
+<p id="message" style="font-family: sans-serif; text-align: center; margin-top: 40vh;">正在下载白橡日记…</p>
 <script>
-    var version = '5.14.1';
-    window.onload = function () {
-        window.location = 'https://oakdiary.oss-cn-hangzhou.aliyuncs.com/oakdiary-v' + version + '.apk';
+    var message = document.getElementById('message');
+    // WeChat's in-app browser blocks APK downloads
+    if (/MicroMessenger/i.test(navigator.userAgent)) {
+        message.textContent = '请点击右上角「…」，选择「在浏览器打开」后下载';
+    } else {
+        fetch('/android/latest.json', { cache: 'no-store' })
+            .then(function (response) { return response.json(); })
+            .then(function (latest) {
+                message.innerHTML = '正在下载白橡日记 ' + latest.versionName +
+                    '…<br><br>如未自动开始，请<a href="' + latest.apkUrl + '">点击这里</a>';
+                window.location = latest.apkUrl;
+            })
+            .catch(function () {
+                message.textContent = '获取下载地址失败，请稍后刷新重试';
+            });
     }
 </script>
