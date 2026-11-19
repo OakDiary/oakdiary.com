@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>白橡日记</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: -apple-system, "PingFang SC", "Noto Sans CJK SC", sans-serif;
+            background: #f7f5f2;
+            color: #333;
+            text-align: center;
+        }
+        main { padding: 32px; }
+        h1 { font-size: 22px; font-weight: 600; margin: 0 0 12px; }
+        p { font-size: 15px; line-height: 1.6; color: #666; margin: 0; }
+        @media (prefers-color-scheme: dark) {
+            body { background: #1c1c1e; color: #eee; }
+            p { color: #aaa; }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1 id="title">支付完成</h1>
+    <p id="message">请关闭此页面并返回白橡日记，高级版将在几秒内生效。</p>
+</main>
+<script>
+    if (new URLSearchParams(location.search).has('cancelled')) {
+        document.getElementById('title').textContent = '支付已取消';
+        document.getElementById('message').textContent = '未完成付款，请关闭此页面返回白橡日记。';
+    }
+</script>
+</body>
+</html>
