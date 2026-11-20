@@ -51,9 +51,9 @@ const prices = {
 };
 
 const pricesChinese = {
-    month: '¥7.00',
-    year: '¥63',
-    lifetime: '¥88'
+    month: '¥8',
+    year: '¥38',
+    lifetime: '¥68'
 };
 
 const pricesTime = [
@@ -63,8 +63,8 @@ const pricesTime = [
 ]
 
 const pricesTimeChinese = [
-    '每月',
-    '每年',
+    '一个月',
+    '一年',
     '永久'
 ]
 
@@ -149,8 +149,8 @@ const chinese = {
             pro: {
                 title: '高级版',
                 description: '解锁所有功能!',
-                price: '¥7',
-                monthly: '每月'
+                price: '¥8',
+                monthly: '一个月'
             }
         },
         features: [
